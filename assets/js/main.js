@@ -17,10 +17,10 @@ $(document).ready(function () {
     var password = $('.login-form input[type="password"]').val()
 
     // Dummy authentication logic (replace with your actual authentication logic)
-    if (username === 'Aniket' && password === 'Aniket12345') {
+    if (username === 'Mrunmayi' && password === 'Mrunmayi12345') {
       // If authentication is successful, animate and redirect to the home screen
       $('.login-form').fadeOut('slow', function () {
-        window.location.href = 'home2.html' // Redirect to home2.html
+        window.location.href = 'home2.php' // Redirect to home2.html
       })
     } else {
       alert('Invalid username or password. Please try again.')
